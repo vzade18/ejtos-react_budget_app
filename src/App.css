@@ -35,4 +35,27 @@
   to {
     transform: rotate(360deg);
   }
+} 
+
+.Currency{
+    background-color: rgb(158, 226, 158);
+    width: 306px;
+    height: 58px;
+    padding: 1rem;
+    border-radius: 5px;
 }
+.Currency-select{
+    border: 0px;
+    text-align: center;
+    background-color: rgb(158, 226, 158);
+    color: green;
+}
+
+.Currency-option{
+    background-color: rgb(177, 219, 177);
+}
+
+.drop-up .Select-menu-outer {
+    top: auto;
+    bottom: 100%;
+  }
