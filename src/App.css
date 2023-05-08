@@ -51,11 +51,14 @@
     color: green;
 }
 
-.Currency-option{
-    background-color: rgb(177, 219, 177);
+.button-increase{
+    background-color: rgb(37, 168, 37);
+    border-radius: 15px;
+    width: 30px;
 }
 
-.drop-up .Select-menu-outer {
-    top: auto;
-    bottom: 100%;
-  }
+.button-decrease{
+    background-color: rgb(236, 93, 68);
+    border-radius: 15px;
+    width: 30px;
+}

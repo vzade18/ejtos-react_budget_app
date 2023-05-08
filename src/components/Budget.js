@@ -4,6 +4,7 @@ const Budget = () => {
     const { budget } = useContext(AppContext);
     const { dispatch } = useContext(AppContext);
     const { expenses } = useContext(AppContext);
+    const { currency } = useContext(AppContext);
 
     const totalExpenses = expenses.reduce((total, item) => {
         return (total += item.cost);
@@ -28,7 +29,7 @@ const Budget = () => {
 
     return (
         <div className='alert alert-secondary'>
-            Budget: £ <input 
+            Budget: {currency} <input 
             type="number"  
             id= "budget" 
             value={budget}
